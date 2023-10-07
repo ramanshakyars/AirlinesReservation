@@ -11,7 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { SearchFlightComponent } from './search-flight/search-flight.component';
 import { CustomerLoginComponent } from './customer-login/customer-login.component';
 import { RegistrationComponent } from './registration/registration.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from './Contact_page/contact/contact.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatSelectModule} from '@angular/material/select';
@@ -21,6 +21,8 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { NavbarComponent } from './navbar/navbar.component';
 import {MatDividerModule} from '@angular/material/divider';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ContactSectionManageComponent } from './Contact_page/contact/contact-section-manage/contact-section-manage.component';
+
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ContactComponent,
     FeedbackComponent,
     NavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    ContactSectionManageComponent,
+  
   ],
   imports: [
     BrowserModule,

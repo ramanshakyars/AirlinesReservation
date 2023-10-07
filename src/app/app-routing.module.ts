@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { SearchFlightComponent } from './search-flight/search-flight.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
+import { ContactComponent } from './Contact_page/contact/contact.component';
 import { CustomerLoginComponent } from './customer-login/customer-login.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { DashboardComponent } from './dashboard/dashboard.component';

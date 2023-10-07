@@ -1,0 +1,67 @@
+.contentForm {
+  position: relative;
+  left: 170px;
+  top: 40px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  padding: 40px;
+  display: inline-block;
+  border-radius: 5px ;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.Section_top {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  background-image: url(../../../assets/contact_pageImages/flight.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation: change 40s infinite ease-in-out;
+}
+
+@keyframes change {
+  0% {
+    background-image: url(../../../assets/alexander-schimmeck-DSOohFTAfno-unsplash.jpg);
+  }
+  20% {
+    background-image: url(../../../assets/home-page2.jpg);
+  }
+  40% {
+    background-image: url(../../../assets/plane-2633883_1920.jpg);
+  }
+  60% {
+    background-image: url(../../../assets/john-mcarthur-8KLLgqHMAv4-unsplash.jpg);
+  }
+  80% {
+    background-image: url(../../../assets/contact_pageImages/flight-2.jpg);
+  }
+  100% {
+    background-image: url(../../../assets/contact_pageImages/flight.jpg);
+  }
+}
+.contactsection{
+    display: flex;
+}
+.sections{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+   box-shadow: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    height: 500px;
+}
